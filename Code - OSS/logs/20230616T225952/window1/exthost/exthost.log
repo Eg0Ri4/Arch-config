@@ -1,0 +1,26 @@
+2023-06-16 22:59:55.721 [info] Extension host with pid 6043 started
+2023-06-16 22:59:55.942 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-16 22:59:55.943 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-16 22:59:55.945 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-16 22:59:55.946 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-16 22:59:56.735 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-16 22:59:56.750 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-16 22:59:56.750 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-16 22:59:56.938 [info] Eager extensions activated
+2023-06-16 22:59:57.086 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-16 22:59:57.086 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-16 23:00:42.664 [info] Extension host terminating: received terminate message from renderer
+2023-06-16 23:00:42.678 [info] Extension host with pid 6043 exiting with code 0
+2023-06-16 23:00:44.246 [info] Extension host with pid 6188 started
+2023-06-16 23:00:44.246 [info] Skipping acquiring lock for /home/eho/.config/Code - OSS/User/workspaceStorage/89f0e11072ab31905bffecc18d089df7.
+2023-06-16 23:00:44.395 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-16 23:00:44.395 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-06-16 23:00:44.426 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-16 23:00:44.426 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-16 23:00:44.540 [info] Eager extensions activated
+2023-06-16 23:00:44.554 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-16 23:00:44.555 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-16 23:02:29.275 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-06-16 23:02:29.276 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-16 23:46:09.800 [info] Extension host terminating: received terminate message from renderer
+2023-06-16 23:46:09.812 [info] Extension host with pid 6188 exiting with code 0

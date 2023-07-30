@@ -1,0 +1,4 @@
+2023-06-24 13:17:16.275 [info] update#ctor - updates are disabled as there is no update URL
+2023-06-24 13:17:19.284 [info] Starting extension host with pid 4292 (fork() took 35 ms).
+2023-06-24 13:19:21.273 [info] Waiting for extension host with pid 4292 to exit.
+2023-06-24 13:19:21.283 [info] Extension host with pid 4292 exited with code: 0, signal: null.

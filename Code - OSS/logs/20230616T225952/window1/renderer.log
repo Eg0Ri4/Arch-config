@@ -1,0 +1,10 @@
+2023-06-16 22:59:58.649 [info] [perf] Render performance baseline is 59ms
+2023-06-16 23:00:12.091 [error] Unable to read file '/home/eho/.config/lf/lfrc' (Error: File not modified since): Error: Unable to read file '/home/eho/.config/lf/lfrc' (Error: File not modified since)
+    at r.w (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:17681)
+    at r.v (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:17513)
+    at async m.G (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2340:37294)
+    at async m.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2340:36989)
+    at async js.Ab (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2331:54274)
+    at async js.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2331:52679)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2340:33034
+2023-06-16 23:00:47.055 [info] [perf] Render performance baseline is 42ms

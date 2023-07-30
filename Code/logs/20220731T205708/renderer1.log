@@ -1,0 +1,7 @@
+[2022-07-31 20:57:31.091] [renderer1] [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+[2022-07-31 21:00:55.735] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-07-31 21:01:06.004] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-07-31 21:05:15.900] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-07-31 21:05:18.582] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-07-31 21:05:20.770] [renderer1] [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade
+[2022-07-31 21:08:01.560] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

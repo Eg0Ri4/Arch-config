@@ -1,0 +1,138 @@
+2023-06-24 13:29:35.321 [info] Extension host with pid 10806 started
+2023-06-24 13:29:35.321 [info] Skipping acquiring lock for /home/eho/.config/Code - OSS/User/workspaceStorage/a3aa71770c2638b6841732b797b78b0a.
+2023-06-24 13:29:35.405 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-24 13:29:35.405 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-06-24 13:29:35.406 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-06-24 13:29:36.056 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-24 13:29:36.115 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-24 13:29:36.115 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-24 13:29:36.252 [info] Eager extensions activated
+2023-06-24 13:29:36.268 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 13:29:36.268 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 13:29:36.869 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at Mc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:45108)
+	at new A_ (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:436750)
+	at f (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:544291)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548700
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545511
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:550764)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519737
+	at e._get (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519166)
+	at e.get (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:514861)
+	at $y.get (/home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:70129)
+	at /home/eho/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:555933
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-06-24 13:29:37.572 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/eho/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/eho/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/eho/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-06-24 13:31:32.445 [info] Extension host terminating: received terminate message from renderer
+2023-06-24 13:31:32.492 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1481885)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12398)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12533)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12533)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-06-24 13:31:32.504 [info] Extension host with pid 10806 exiting with code 0
+2023-06-24 13:31:34.138 [info] Extension host with pid 10993 started
+2023-06-24 13:31:34.138 [info] Skipping acquiring lock for /home/eho/.config/Code - OSS/User/workspaceStorage/ef9a4bd6751f92a6bc72a60182f9cf7d.
+2023-06-24 13:31:34.338 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-24 13:31:34.370 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-24 13:31:34.370 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-24 13:31:34.481 [info] Eager extensions activated
+2023-06-24 13:31:34.504 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 13:31:34.504 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 13:31:38.434 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-24 13:31:51.361 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:properties'
+2023-06-24 13:32:07.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:08.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:10.995 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:16.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:21.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:26.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:31.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:36.525 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:41.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:46.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:32:51.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1710
+2023-06-24 13:32:56.970 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1710
+2023-06-24 13:33:02.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:07.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:12.270 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:17.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:22.525 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:27.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:32.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:37.746 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709
+2023-06-24 13:33:42.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1709

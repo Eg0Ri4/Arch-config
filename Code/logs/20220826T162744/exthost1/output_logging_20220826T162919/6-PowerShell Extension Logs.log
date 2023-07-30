@@ -1,0 +1,5 @@
+8/26/2022 4:29:25 PM [NORMAL] - Visual Studio Code v1.69.2 64-bit
+8/26/2022 4:29:25 PM [NORMAL] - PowerShell Extension v2022.7.2
+8/26/2022 4:29:25 PM [NORMAL] - Operating System: Linux 64-bit
+8/26/2022 4:29:25 PM [ERROR] - Unable to find PowerShell. Do you have PowerShell installed? You can also configure custom PowerShell installations with the 'powershell.powerShellAdditionalExePaths' setting.
+8/26/2022 4:35:29 PM [NORMAL] - Shutting down language client...

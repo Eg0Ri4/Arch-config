@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/tg=org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-6LS1N1.desktop;userapp-Telegram Desktop-LJDVQ1.desktop;org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop;
+application/x-executable=vim.desktop;
+application/x-php=vim.desktop;
+image/jpeg=firefox-developer-edition.desktop;

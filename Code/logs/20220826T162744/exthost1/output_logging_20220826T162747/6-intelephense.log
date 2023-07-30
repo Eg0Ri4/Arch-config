@@ -1,0 +1,9 @@
+[Info  - 4:27:48 PM] Initialising intelephense 1.8.2
+[Info  - 4:27:48 PM] Reading state from /home/eho/.config/Code/User/workspaceStorage/6dfbb966ffbdfdc90f5440a05fffd56e/bmewburn.vscode-intelephense-client/410b7d66.
+[Info  - 4:27:48 PM] Initialised in 185 ms
+[Info  - 4:27:48 PM] Searching file:///home/eho/.vscode/extensions/bmewburn.vscode-intelephense-client-1.8.2/node_modules/intelephense/lib/stub for files to index.
+[Info  - 4:27:48 PM] Searching file:///srv/http for files to index.
+[Info  - 4:27:48 PM] Indexing started.
+[Info  - 4:27:49 PM] Indexing ended. 10 files indexed in 0s.
+[Info  - 4:27:49 PM] Writing state to /home/eho/.config/Code/User/workspaceStorage/6dfbb966ffbdfdc90f5440a05fffd56e/bmewburn.vscode-intelephense-client/410b7d66.
+[Info  - 4:27:49 PM] Wrote state in 0.3s.

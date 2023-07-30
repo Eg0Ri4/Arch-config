@@ -1,0 +1,11 @@
+[2022-08-26 16:27:46.402] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-08-26 16:27:47.643] [renderer1] [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade
+[2022-08-26 16:28:00.235] [renderer1] [error] Unable to read file '/srv/http/vacancies_list/scripts/connect.php' (Error: File not modified since): Error: Unable to read file '/srv/http/vacancies_list/scripts/connect.php' (Error: File not modified since)
+    at h.doReadFileStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:20036)
+    at async p.doRead (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:42357)
+    at async p.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:42032)
+    at async Ir.resolveFromFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2741:66789)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:36489
+[2022-08-26 16:29:19.092] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-08-26 16:29:22.807] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-08-26 16:29:47.047] [renderer1] [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade

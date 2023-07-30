@@ -1,0 +1,31 @@
+lfcd() {
+	_tmp="$(mktemp -q "${XDG_RUNTIME_DIR:-"${TMPDIR:-"/tmp"}"}/lfcd.XXXXXXXX")" \
+	_fid="$(mktemp -q "${XDG_RUNTIME_DIR:-"${TMPDIR:-"/tmp"}"}/lfcd_fid.XXXXXXXX")"
+
+	lf -command '$printf $id > '"$_fid" \
+		-last-dir-path="$_tmp" "$@"
+
+	# if you opened archives with 'archivemount' while in lf,
+	# their paths will be written to _archivemount_dir, unmount
+	# and delete them when exiting lf
+	_id="$(cat "$_fid")" \
+	_archivemount_dir="/tmp/__lf_archivemount_$_id"
+	if [ -f "$_archivemount_dir" ]; then
+		cat "$_archivemount_dir" \
+			| while read -r _line; do
+			"${SUPER:-sudo}" umount "$_line"
+			rmdir "$_line"
+		done
+		rm -f -- "$_archivemount_dir"
+	fi
+
+	# cd to last directory in lf
+	if [ -f "$_tmp" ]; then
+		_file="$(cat "$_tmp")"
+		if [ -d "$_file" ] && [ "$_file" != "$PWD" ]; then
+			cd -- "$_file"
+		fi
+	fi
+	rm -f -- "$_tmp" >/dev/null 2>&1
+}
+# vim: set ft=sh

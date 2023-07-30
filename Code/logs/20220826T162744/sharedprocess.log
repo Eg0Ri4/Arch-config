@@ -1,0 +1,18 @@
+[2022-08-26 16:27:47.576] [sharedprocess] [info] Starting worker process with pid 5549 (type: fileWatcher, window: 1).
+[2022-08-26 16:27:48.068] [sharedprocess] [info] Deleted from disk github.copilot /home/eho/.vscode/extensions/github.copilot-1.36.6340
+[2022-08-26 16:27:50.307] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-08-26 16:27:50.309] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-08-26 16:27:50.670] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-08-26 16:27:51.047] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-08-26 16:28:02.390] [sharedprocess] [info] Downloaded extension: ms-python.python /home/eho/.config/Code/CachedExtensionVSIXs/ms-python.python-2022.12.1
+[2022-08-26 16:28:03.933] [sharedprocess] [info] Extracted extension to /home/eho/.vscode/extensions/.e3db2aab-4a59-41af-9987-273c5f4c9057: ms-python.python
+[2022-08-26 16:28:03.949] [sharedprocess] [info] Renamed to /home/eho/.vscode/extensions/ms-python.python-2022.12.1
+[2022-08-26 16:28:03.962] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-08-26 16:28:03.966] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2022-08-26 16:28:14.499] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/eho/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.40
+[2022-08-26 16:28:16.965] [sharedprocess] [info] Extracted extension to /home/eho/.vscode/extensions/.0180ca9a-9b3d-4414-a884-4b5fcb345931: ms-python.vscode-pylance
+[2022-08-26 16:28:16.985] [sharedprocess] [info] Renamed to /home/eho/.vscode/extensions/ms-python.vscode-pylance-2022.8.40
+[2022-08-26 16:28:16.987] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-08-26 16:28:16.991] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-08-26 16:29:17.943] [sharedprocess] [info] Worker process with pid 5549 terminated normally (type: fileWatcher, window: 1).
+[2022-08-26 16:29:18.835] [sharedprocess] [info] Starting worker process with pid 5870 (type: fileWatcher, window: 1).

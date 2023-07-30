@@ -1,0 +1,10 @@
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is enabled
+> conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Pylance language server.

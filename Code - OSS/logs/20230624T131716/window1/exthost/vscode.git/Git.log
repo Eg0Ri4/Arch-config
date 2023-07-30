@@ -1,0 +1,18 @@
+2023-06-24 13:17:21.071 [info] Log level: Info
+2023-06-24 13:17:21.071 [info] Validating found git in: "git"
+2023-06-24 13:17:21.071 [info] Using git "2.40.1" from "git"
+2023-06-24 13:17:21.071 [info] > git rev-parse --show-toplevel [4ms]
+2023-06-24 13:17:21.085 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2023-06-24 13:17:21.093 [info] Open repository: /home/eho/projects/EliteMafiaBot-1
+2023-06-24 13:17:21.114 [info] > git rev-parse --show-toplevel [13ms]
+2023-06-24 13:17:21.129 [info] > git config --get commit.template [17ms]
+2023-06-24 13:17:21.130 [info] > git rev-parse --show-toplevel [6ms]
+2023-06-24 13:17:21.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-24 13:17:21.159 [info] > git status -z -uall [4ms]
+2023-06-24 13:17:21.181 [info] > git config --get commit.template [2ms]
+2023-06-24 13:17:21.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-24 13:17:21.202 [info] > git status -z -uall [2ms]
+2023-06-24 13:17:21.423 [info] > git show --textconv :src/game_logic/waiting_context.py [9ms]
+2023-06-24 13:17:21.424 [info] > git ls-files --stage -- /home/eho/projects/EliteMafiaBot-1/src/game_logic/waiting_context.py [1ms]
+2023-06-24 13:17:21.434 [info] > git cat-file -s 661627ce613ff3b3f95581dd0238f7df78f2162d [1ms]
+2023-06-24 13:17:21.652 [info] > git check-ignore -v -z --stdin [9ms]
