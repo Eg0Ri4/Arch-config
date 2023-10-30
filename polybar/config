@@ -51,12 +51,11 @@ module-margin = 1
 separator = | 
 separator-foreground = ${colors.disabled}
 
-
 ;font-0 = monospace;2
 font-0 = JetBrains Mono Nerd Font;2
 
-modules-left = xworkspaces        
-modules-right = filesystem pulseaudio battery xkeyboard memory  wlan 
+modules-left = menu xworkspaces        
+modules-right = filesystem pulseaudio battery xkeyboard memory wlan session
 modules-center = date
 
 cursor-click = pointer
@@ -100,7 +99,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted =  %percentage_used%%
+label-mounted = 󰋊 %percentage_used%%
 
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.disabled}
@@ -112,12 +111,11 @@ format-volume-prefix-foreground = ${colors.primary}
 format-volume = <ramp-volume> <label-volume> 
 label-volume = %percentage%% 
 
-ramp-volume-0 = 奄
-ramp-volume-1 = 奔
-ramp-volume-2 = 墳
-ramp-volume-3 = 
+ramp-volume-0 = 󰕿
+ramp-volume-1 = 󰖀
+ramp-volume-2 = 󰕾
 
-label-muted = 婢 %percentage%%
+label-muted = 󰝟 %percentage%%
 label-muted-foreground = ${colors.disabled}
 
 [module/battery]
@@ -186,12 +184,13 @@ interval = 5
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 label-disconnected = %{F#707880}睊
+click-left = ./.config/scripts/menus.sh 1
 
 [module/wlan]
 inherit = network-base
 interface-type = wireless
-label-connected = 直 %essid%%downspeed:9%
-double-click-left = 
+label-disconnected = 󰤭 
+label-connected = 󰤨 %essid%%downspeed:9%%upspeed:9% 
 
 [module/eth]
 inherit = network-base
@@ -202,7 +201,7 @@ label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
 type = internal/date
 interval = 1
 
-date-alt =  %Y-%m-%d   %H:%M:%S
+date-alt =  %Y-%m-%d  󰅐 %H:%M:%S
 date =%A %H:%M
 
 label = %date%
@@ -210,12 +209,19 @@ label-foreground = ${colors.secondary}
 
 [module/session]
 type = custom/text
-
-click-left = ~/scripts/powermenu.sh
+click-left = ./.config/scripts/menus.sh 0
 content = 
 content-background = ${colors.surface1}
 content-foreground = ${colors.text}
 content-padding = 1
+
+[module/menu]
+type = custom/text
+content = 
+content-background = ${colors.surface1}
+content-foreground = ${colors.text}
+content-padding = 1
+click-left = ./.config/scripts/menus.sh 2
 
 [settings]
 screenchange-reload = true

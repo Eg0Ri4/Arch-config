@@ -1,0 +1,75 @@
+2023-07-30 17:14:45.710 [info] Deleted from disk aurorabiz.blade-ui-kit /home/eho/.vscode-oss/extensions/aurorabiz.blade-ui-kit-1.3.0-universal
+2023-07-30 17:14:46.060 [info] Deleted from disk shufo.vscode-blade-formatter /home/eho/.vscode-oss/extensions/shufo.vscode-blade-formatter-0.21.1-universal
+2023-07-30 17:19:51.284 [info] Getting Manifest... devsense.phptools-vscode
+2023-07-30 17:19:51.986 [info] Installing extension: devsense.phptools-vscode
+2023-07-30 17:19:52.766 [info] Getting Manifest... devsense.composer-php-vscode
+2023-07-30 17:19:53.040 [info] Getting Manifest... devsense.profiler-php-vscode
+2023-07-30 17:19:53.421 [info] Installing extension: devsense.composer-php-vscode devsense.phptools-vscode
+2023-07-30 17:19:53.421 [info] Installing extension: devsense.profiler-php-vscode devsense.phptools-vscode
+2023-07-30 17:19:55.024 [info] Extension signature verification is not done: devsense.composer-php-vscode
+2023-07-30 17:19:55.075 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.67371a09-1771-4dfa-bcae-0095a1550e90: devsense.composer-php-vscode
+2023-07-30 17:19:55.078 [info] Renamed to /home/eho/.vscode-oss/extensions/devsense.composer-php-vscode-1.36.13417-universal
+2023-07-30 17:19:55.081 [info] Extension signature verification is not done: devsense.profiler-php-vscode
+2023-07-30 17:19:55.084 [info] Extracting extension completed. devsense.composer-php-vscode
+2023-07-30 17:19:55.119 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.dbc0f006-b3cb-4110-8422-350e0cc61afb: devsense.profiler-php-vscode
+2023-07-30 17:19:55.122 [info] Renamed to /home/eho/.vscode-oss/extensions/devsense.profiler-php-vscode-1.36.13417-universal
+2023-07-30 17:19:55.124 [info] Extracting extension completed. devsense.profiler-php-vscode
+2023-07-30 17:20:07.152 [info] Uninstalling extension from the profile: haudraufhaun.hyper-is-theme@0.1.1 vscode-userdata:/home/eho/.vscode-oss/extensions/extensions.json
+2023-07-30 17:20:07.194 [info] Marked extension as uninstalled haudraufhaun.hyper-is-theme-0.1.1-universal
+2023-07-30 17:20:08.034 [info] Successfully uninstalled extension from the profile haudraufhaun.hyper-is-theme@0.1.1 vscode-userdata:/home/eho/.vscode-oss/extensions/extensions.json
+2023-07-30 17:20:42.160 [info] Extension signature verification is not done: devsense.phptools-vscode
+2023-07-30 17:20:42.447 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.c139cf1e-af76-407b-8129-7fdac7378501: devsense.phptools-vscode
+2023-07-30 17:20:42.461 [info] Renamed to /home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.36.13417-linux-x64
+2023-07-30 17:20:42.465 [info] Extracting extension completed. devsense.phptools-vscode
+2023-07-30 17:20:42.473 [info] Extension installed successfully: devsense.composer-php-vscode
+2023-07-30 17:20:42.473 [info] Extension installed successfully: devsense.profiler-php-vscode
+2023-07-30 17:20:42.473 [info] Extension installed successfully: devsense.phptools-vscode
+2023-07-30 17:20:55.355 [info] Getting Manifest... formulahendry.auto-close-tag
+2023-07-30 17:20:55.881 [info] Installing extension: formulahendry.auto-close-tag
+2023-07-30 17:20:57.821 [info] Extension signature verification is not done: formulahendry.auto-close-tag
+2023-07-30 17:20:57.849 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.ad87e56d-e2ac-4de3-b4f2-438dc2b607ef: formulahendry.auto-close-tag
+2023-07-30 17:20:57.851 [info] Renamed to /home/eho/.vscode-oss/extensions/formulahendry.auto-close-tag-0.5.14-universal
+2023-07-30 17:20:57.852 [info] Extracting extension completed. formulahendry.auto-close-tag
+2023-07-30 17:20:57.860 [info] Extension installed successfully: formulahendry.auto-close-tag
+2023-07-30 17:21:20.578 [info] Getting Manifest... formulahendry.auto-rename-tag
+2023-07-30 17:21:21.154 [info] Installing extension: formulahendry.auto-rename-tag
+2023-07-30 17:21:26.246 [info] Extension signature verification is not done: formulahendry.auto-rename-tag
+2023-07-30 17:21:26.308 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.d828f519-cc50-41ed-91f0-aabfd5afd9ab: formulahendry.auto-rename-tag
+2023-07-30 17:21:26.318 [info] Renamed to /home/eho/.vscode-oss/extensions/formulahendry.auto-rename-tag-0.1.10-universal
+2023-07-30 17:21:26.321 [info] Extracting extension completed. formulahendry.auto-rename-tag
+2023-07-30 17:21:26.332 [info] Extension installed successfully: formulahendry.auto-rename-tag
+2023-07-30 17:21:47.251 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-07-30 17:21:47.742 [info] Installing extension: streetsidesoftware.code-spell-checker
+2023-07-30 17:21:54.851 [info] Extension signature verification is not done: streetsidesoftware.code-spell-checker
+2023-07-30 17:21:55.146 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.f3cc3236-8c05-4ef1-98ff-4d8b69b240cb: streetsidesoftware.code-spell-checker
+2023-07-30 17:21:55.163 [info] Renamed to /home/eho/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-2.20.5-universal
+2023-07-30 17:21:55.165 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-07-30 17:21:55.173 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-07-30 17:22:28.543 [info] Getting Manifest... esbenp.prettier-vscode
+2023-07-30 17:22:28.702 [info] Installing extension: esbenp.prettier-vscode
+2023-07-30 17:22:34.861 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2023-07-30 17:22:34.999 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.417f620b-9e18-480b-b1b9-1618bc0f8f27: esbenp.prettier-vscode
+2023-07-30 17:22:35.012 [info] Renamed to /home/eho/.vscode-oss/extensions/esbenp.prettier-vscode-9.19.0-universal
+2023-07-30 17:22:35.015 [info] Extracting extension completed. esbenp.prettier-vscode
+2023-07-30 17:22:35.023 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-07-30 17:24:01.058 [info] Getting Manifest... mikestead.dotenv
+2023-07-30 17:24:01.568 [info] Installing extension: mikestead.dotenv
+2023-07-30 17:24:02.725 [info] Extension signature verification is not done: mikestead.dotenv
+2023-07-30 17:24:02.739 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.a167a2ed-7f0c-4fa6-a948-aad37b315a68: mikestead.dotenv
+2023-07-30 17:24:02.741 [info] Renamed to /home/eho/.vscode-oss/extensions/mikestead.dotenv-1.0.1-universal
+2023-07-30 17:24:02.743 [info] Extracting extension completed. mikestead.dotenv
+2023-07-30 17:24:02.749 [info] Extension installed successfully: mikestead.dotenv
+2023-07-30 17:24:23.681 [info] Getting Manifest... editorconfig.editorconfig
+2023-07-30 17:24:23.839 [info] Installing extension: editorconfig.editorconfig
+2023-07-30 17:24:25.164 [info] Extension signature verification is not done: editorconfig.editorconfig
+2023-07-30 17:24:25.223 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.543a144f-10e6-4c36-aa64-610ee706acf7: editorconfig.editorconfig
+2023-07-30 17:24:25.226 [info] Renamed to /home/eho/.vscode-oss/extensions/editorconfig.editorconfig-0.16.6-universal
+2023-07-30 17:24:25.227 [info] Extracting extension completed. editorconfig.editorconfig
+2023-07-30 17:24:25.233 [info] Extension installed successfully: editorconfig.editorconfig
+2023-07-30 17:24:49.734 [info] Getting Manifest... formulahendry.code-runner
+2023-07-30 17:24:50.449 [info] Installing extension: formulahendry.code-runner
+2023-07-30 17:24:56.336 [info] Extension signature verification is not done: formulahendry.code-runner
+2023-07-30 17:24:56.455 [info] Extracted extension to /home/eho/.vscode-oss/extensions/.42d16d0a-e123-4013-9c5f-4dc83e77700f: formulahendry.code-runner
+2023-07-30 17:24:56.458 [info] Renamed to /home/eho/.vscode-oss/extensions/formulahendry.code-runner-0.12.0-universal
+2023-07-30 17:24:56.461 [info] Extracting extension completed. formulahendry.code-runner
+2023-07-30 17:24:56.468 [info] Extension installed successfully: formulahendry.code-runner

@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #remove border
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 
 #i3gaps inner/outer
 gaps inner 10
@@ -210,7 +210,7 @@ smart_gaps on
 exec_always "setxkbmap -layout us,de,ua,ru -variant ,, -option grp:alt_shift_toggle"
 
 #display wallpaper
-exec_always feh --bg-fill ~/Pictures/wp2082809.jpg
+exec_always feh --bg-fill ~/Pictures/wallpapers/5.jpg
 
 #Pulse Audio control
 #bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
@@ -225,9 +225,6 @@ bindsym XF86AudioLowerVolume  exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # D
 bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
-# Touchpad controls
-bindsym XF86TouchpadToggle exec "/home/eho/touchpad_toggle.sh; notify-send -t 5 'touchpad toggle'"
-
 #exec polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
@@ -235,6 +232,9 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 for_window [class="firefox"] move to workspace $ws2
 for_window [class="Spotify"] move to workspace $ws10
 for_window [class="Telegram"] move to workspace $ws3
+
+#exec wifi menu
+bindsym $mod+z exec rofi -show wifi -modi "wifi:iwdrofimenu"
 
 #start apps witch keybinds
 bindsym $mod+b exec firefox-developer-edition
@@ -249,3 +249,7 @@ exec --no-startup-id picom  --config ~/.config/picom/picom.conf
 #make a screenshot
 bindsym Print       exec flameshot full
 bindsym Shift+Print exec flameshot gui
+
+#reverce scrolling for tochpad and normal one for mouse
+exec_always ~/.config/scripts/scrolling.sh
+

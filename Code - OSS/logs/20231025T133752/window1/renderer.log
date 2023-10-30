@@ -1,0 +1,25 @@
+2023-10-25 13:37:56.292 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, saveEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-10-25 13:37:56.293 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip, notebookExecution'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-10-25 13:37:56.293 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-10-25 13:37:56.377 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-10-25 13:37:57.179 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: blade
+2023-10-25 13:37:57.179 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: ejs
+2023-10-25 13:37:57.179 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: latte
+2023-10-25 13:37:57.179 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: tpl
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: twig
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: vue-html
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: django-html
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: jinja-html
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: erb
+2023-10-25 13:37:57.180 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: HTML (Eex)
+2023-10-25 13:37:57.181 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: volt
+2023-10-25 13:37:57.181 [error] [HansUXdev.bootstrap5-snippets]: Unknown language in `contributes.bootstrap5-snippets.language`. Provided value: nunjucks
+2023-10-25 13:37:57.181 [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade
+2023-10-25 13:37:59.153 [info] [perf] Render performance baseline is 62ms
+2023-10-25 13:44:03.678 [error] Cannot read properties of undefined (reading 'range'): TypeError: Cannot read properties of undefined (reading 'range')
+    at Nr (/home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:50335)
+    at /home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:49938
+    at Array.map (<anonymous>)
+    at Object.pt [as asSymbolInformations] (/home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:49930)
+    at /home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:106:31138
+    at r.provideDocumentSymbols (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:37581)

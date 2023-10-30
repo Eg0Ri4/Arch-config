@@ -1,0 +1,5 @@
+PHP extension started.
+Resolved PHP version '8.1' from composer.json.
+Couldn't resolve requested PHP version '8.1' ... Using default 'php'.
+Found PHP, version: 8.2.11, Xdebug: not loaded.
+PHP Language Server Started.

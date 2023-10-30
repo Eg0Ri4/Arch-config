@@ -1,0 +1,29 @@
+2023-10-25 13:37:56.355 [info] Extension host with pid 5622 started
+2023-10-25 13:37:56.355 [info] Skipping acquiring lock for /home/eho/.config/Code - OSS/User/workspaceStorage/8bc5819b6fe506d0f53a2e84e9079c63.
+2023-10-25 13:37:56.633 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-25 13:37:56.642 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-10-25 13:37:56.649 [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view, startup: false, activationEvent: 'onLanguage:php'
+2023-10-25 13:37:56.653 [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: false, activationEvent: 'onLanguage:php'
+2023-10-25 13:37:57.228 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-25 13:37:57.231 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-10-25 13:37:57.233 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-10-25 13:37:57.242 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-25 13:37:57.250 [info] ExtensionService#_doActivateExtension DEVSENSE.composer-php-vscode, startup: true, activationEvent: 'workspaceContains:composer.json'
+2023-10-25 13:37:57.342 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-25 13:37:57.408 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-25 13:37:57.624 [info] Eager extensions activated
+2023-10-25 13:37:57.634 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:37:57.636 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:37:57.642 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:37:57.664 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:37:57.707 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:37:57.772 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:40:09.066 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2023-10-25 13:44:03.637 [error] [DEVSENSE.phptools-vscode] provider FAILED
+2023-10-25 13:44:03.648 [error] TypeError: Cannot read properties of undefined (reading 'range')
+    at Nr (/home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:50335)
+    at /home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:49938
+    at Array.map (<anonymous>)
+    at Object.pt [as asSymbolInformations] (/home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:105:49930)
+    at /home/eho/.vscode-oss/extensions/devsense.phptools-vscode-1.40.14053-linux-x64/out/src/extension.js:106:31138
+    at r.provideDocumentSymbols (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:37581)

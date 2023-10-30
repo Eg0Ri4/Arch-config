@@ -1,7 +1,0 @@
-2023-04-30 14:51:49.466 [info] [perf] Render performance baseline is 58ms
-2023-04-30 14:51:54.476 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc
-2023-04-30 14:51:55.309 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc
-2023-04-30 14:51:55.526 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc
-2023-04-30 14:51:55.712 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc
-2023-04-30 14:51:55.895 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc
-2023-04-30 14:51:56.581 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/eho/.config/lf/lfrc' (Error: File Modified Since) file:///home/eho/.config/lf/lfrc

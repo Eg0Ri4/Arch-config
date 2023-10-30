@@ -1,6 +1,0 @@
-2023-06-16 22:59:52.329 [info] update#ctor - updates are disabled as there is no update URL
-2023-06-16 22:59:55.181 [info] Starting extension host with pid 6043 (fork() took 8 ms).
-2023-06-16 23:00:42.701 [info] Extension host with pid 6043 exited with code: 0, signal: null.
-2023-06-16 23:00:43.846 [info] Starting extension host with pid 6188 (fork() took 11 ms).
-2023-06-16 23:46:09.818 [info] Waiting for extension host with pid 6188 to exit.
-2023-06-16 23:46:09.823 [info] Extension host with pid 6188 exited with code: 0, signal: null.

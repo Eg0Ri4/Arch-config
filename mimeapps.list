@@ -1,8 +1,17 @@
 [Default Applications]
 x-scheme-handler/tg=org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+inode/directory=xfce4-file-manager.desktop
+x-scheme-handler/trash=xfce4-file-manager.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-6LS1N1.desktop;userapp-Telegram Desktop-LJDVQ1.desktop;org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop;
 application/x-executable=vim.desktop;
 application/x-php=vim.desktop;
 image/jpeg=firefox-developer-edition.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+inode/directory=xfce4-file-manager.desktop;
+x-scheme-handler/trash=xfce4-file-manager.desktop;
+

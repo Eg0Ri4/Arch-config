@@ -38,10 +38,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/eho/site",
+                                        "path": "/home/eho/site",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/site"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/eho/test-project",
+                                        "path": "/home/eho/test-project",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/test-project"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///srv/http",
+                                        "path": "/srv/http",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/srv/http"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -80,17 +114,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/eho/first_project",
-                                        "path": "/home/eho/first_project",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/first_project"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/eho/laravel_project",
                                         "path": "/home/eho/laravel_project",
                                         "scheme": "file"
@@ -99,18 +122,18 @@
                                     "label": "~/laravel_project"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///srv/http",
-                                        "path": "/srv/http",
+                                        "external": "file:///home/eho/.bash_history",
+                                        "path": "/home/eho/.bash_history",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/srv/http"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "~/.bash_history"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -182,17 +205,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/eho/.bash_history",
-                                        "path": "/home/eho/.bash_history",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.bash_history"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/eho/.byobu/color",
                                         "path": "/home/eho/.byobu/color",
                                         "scheme": "file"
@@ -259,18 +271,15 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -318,7 +327,7 @@
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Contents..."
+                                                "label": "Show Profile Contents"
                                             },
                                             {
                                                 "id": "vscode.menubar.separator"
@@ -347,9 +356,6 @@
                                     }
                                 },
                                 {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.openSettings",
                                     "label": "&&Settings"
                                 },
@@ -364,6 +370,10 @@
                                 {
                                     "id": "workbench.action.openSnippets",
                                     "label": "Configure User Snippets"
+                                },
+                                {
+                                    "id": "workbench.action.tasks.openUserTasks",
+                                    "label": "User Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -400,13 +410,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -455,13 +463,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -627,7 +633,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -694,6 +701,10 @@
                                     "id": "breadcrumbs.toggle",
                                     "label": "&&Breadcrumbs",
                                     "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleStickyScroll",
+                                    "label": "&&Sticky Scroll"
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -820,6 +831,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -843,12 +858,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
-                    },
-                    {
-                        "id": "editor.action.toggleStickyScroll",
-                        "label": "&&Sticky Scroll"
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -865,8 +875,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1182,8 +1191,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1744,40 +1752,40 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 405,
+            "sideBarWidth": 267,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/eho/.config",
-            "backupPath": "/home/eho/.config/Code - OSS/Backups/5bf798fe53aa358c5e85dc74ec9c2c5e",
+            "folder": "file:///home/eho/site",
+            "backupPath": "/home/eho/.config/Code - OSS/Backups/94c6aa4e225ea7c6fcdc8ab4ec680ea3",
             "uiState": {
                 "mode": 1,
-                "x": 2,
-                "y": 31,
-                "width": 1916,
-                "height": 1047
+                "x": 0,
+                "y": 29,
+                "width": 1920,
+                "height": 1051
             }
         },
         "openedWindows": []
@@ -1786,10 +1794,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/eho/projects/EliteMafiaBot-1"
-            },
-            {
-                "folderUri": "file:///home/eho/.config"
+                "folderUri": "file:///home/eho/site"
             }
         ],
         "emptyWindows": []
@@ -1797,10 +1802,13 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/eho/first_project": "__default__profile__",
             "file:///home/eho/projects": "__default__profile__",
             "file:///home/eho/projects/EliteMafiaBot-1": "__default__profile__",
-            "file:///home/eho/.config": "__default__profile__"
+            "file:///home/eho/.config": "__default__profile__",
+            "file:///srv/http": "__default__profile__",
+            "file:///home/eho/test-project": "__default__profile__",
+            "file:///home/eho/first_project": "__default__profile__",
+            "file:///home/eho/site": "__default__profile__"
         },
         "emptyWindows": {}
     },
