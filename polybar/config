@@ -28,9 +28,11 @@ disabled = #B7B7B7
  
 
 [bar/example]
-width = 100%
-height = 22pt
+override-redirect = true
+width = 98%
+height = 22pti
 radius = 8
+offset-x = 1%
 
 ; dpi = 96
 

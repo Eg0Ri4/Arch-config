@@ -188,8 +188,9 @@ for_window [class="^.*"] border pixel 0
 
 #i3gaps inner/outer
 gaps inner 10
-gaps outer 15
-smart_gaps on
+gaps outer 10
+gaps top 22
+smart_gaps off
 
 
 #i3gaps mode 

@@ -1,3 +1,0 @@
-2023-07-30 17:14:41.973 [info] update#ctor - updates are disabled as there is no update URL
-2023-07-30 18:38:17.188 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8163]: crashed with code 15 and reason 'killed'
-2023-07-30 18:38:22.128 [info] Extension host with pid 8164 exited with code: 0, signal: unknown.

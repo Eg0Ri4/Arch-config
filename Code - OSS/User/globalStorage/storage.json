@@ -48,6 +48,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/eho/chat",
+                                        "path": "/home/eho/chat",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/chat"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/eho/site",
                                         "path": "/home/eho/site",
                                         "scheme": "file"
@@ -279,7 +290,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -866,7 +878,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -875,7 +888,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1778,14 +1792,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/eho/site",
-            "backupPath": "/home/eho/.config/Code - OSS/Backups/94c6aa4e225ea7c6fcdc8ab4ec680ea3",
+            "folder": "file:///home/eho/chat",
+            "backupPath": "/home/eho/.config/Code - OSS/Backups/3917df7688e94b0af9e7e229388237c8",
             "uiState": {
                 "mode": 1,
                 "x": 0,
-                "y": 29,
+                "y": 0,
                 "width": 1920,
-                "height": 1051
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -1794,7 +1808,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/eho/site"
+                "folderUri": "file:///home/eho/chat"
             }
         ],
         "emptyWindows": []
@@ -1808,7 +1822,9 @@
             "file:///srv/http": "__default__profile__",
             "file:///home/eho/test-project": "__default__profile__",
             "file:///home/eho/first_project": "__default__profile__",
-            "file:///home/eho/site": "__default__profile__"
+            "file:///home/eho/site": "__default__profile__",
+            "file:///home/eho/shopping-site": "__default__profile__",
+            "file:///home/eho/chat": "__default__profile__"
         },
         "emptyWindows": {}
     },
