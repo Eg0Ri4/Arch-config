@@ -1,4 +1,0 @@
-[2022-10-01 19:48:46.419] [sharedprocess] [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}
-[2022-10-01 19:48:47.182] [sharedprocess] [info] Starting worker process with pid 938 (type: fileWatcher, window: 1).
-[2022-10-01 19:48:47.518] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/eho/.vscode/extensions/ms-python.vscode-pylance-2022.7.40
-[2022-10-01 19:48:47.520] [sharedprocess] [info] Deleted from disk ms-python.python /home/eho/.vscode/extensions/ms-python.python-2022.10.1

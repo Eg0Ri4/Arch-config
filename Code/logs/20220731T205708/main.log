@@ -1,7 +1,0 @@
-[2022-07-31 20:57:08.625] [main] [info] update#setState idle
-[2022-07-31 20:57:11.242] [main] [info] Starting extension host with pid 23882 (fork() took 36 ms).
-[2022-07-31 20:57:38.627] [main] [info] update#setState checking for updates
-[2022-07-31 20:57:38.670] [main] [info] update#setState idle
-[2022-07-31 21:05:14.850] [main] [info] Extension host with pid 23882 exited with code: 0, signal: null.
-[2022-07-31 21:05:15.677] [main] [info] Starting extension host with pid 25445 (fork() took 15 ms).
-[2022-07-31 21:17:13.499] [main] [info] Extension host with pid 25445 exited with code: 0, signal: null.
