@@ -1,0 +1,15 @@
+apg 2.2.3-5
+electron18 18.3.15-4
+electron19 19.1.9-5
+hollywood 1.21-6
+i3lock-color 2.13.c.4-1
+iwdrofimenu-git r48.02c6c31-1
+js78 78.15.0-4
+nbfc-git 1.6.3.r40.gfc9fb97-3
+picom-ftlabs-git 2098_2023.12.23-1
+rofi-power-menu-git 3.1.0.r0.g395c1e0-1
+siji-git r23.c691f20-2
+speedometer 2.9-1
+spotify 1:1.1.84.716-2
+ttf-unifont 14.0.04-1
+yay-git 11.2.0.r4.ge0006ec-1
