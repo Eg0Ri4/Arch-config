@@ -192,7 +192,7 @@ click-left = ./.config/scripts/menus.sh 1
 inherit = network-base
 interface-type = wireless
 label-disconnected = 󰤭 
-label-connected = 󰤨 %essid%%downspeed:9%%upspeed:9% 
+label-connected = 󰤨 %essid% 
 
 [module/eth]
 inherit = network-base
