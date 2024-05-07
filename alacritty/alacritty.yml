@@ -37,6 +37,7 @@
 #dynamic_padding: false
 decorations: none
 
+  
 opacity.window: 0.7
 colors:
   name: Chalk (dark)
@@ -65,7 +66,7 @@ colors:
     magenta: "#e1a3ee"
     cyan: "#12cfc0"
     white: "#f5f5f5"
-theme: Chalk.dark
+#theme: Chalk.dark
 
 # Startup Mode (changes require restart)
 #
@@ -95,7 +96,7 @@ theme: Chalk.dark
 #scrolling:
 # Maximum number of lines in the scrollback buffer.
 # Specifying '0' will disable scrolling.
-#history: 10000
+history: 10000
 # Scrolling distance multiplier.
 #multiplier: 3
 # Font configuration
