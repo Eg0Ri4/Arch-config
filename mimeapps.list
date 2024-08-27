@@ -12,12 +12,16 @@ application/x-extension-shtml=firefoxdeveloperedition.desktop
 application/xhtml+xml=firefoxdeveloperedition.desktop
 application/x-extension-xhtml=firefoxdeveloperedition.desktop
 application/x-extension-xht=firefoxdeveloperedition.desktop
+image/jpeg=feh.desktop
+x-scheme-handler/tonsite=org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop
+application/pdf=firefox-developer-edition.desktop
+x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-6LS1N1.desktop;userapp-Telegram Desktop-LJDVQ1.desktop;org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop;
 application/x-executable=vim.desktop;
 application/x-php=vim.desktop;
-image/jpeg=firefox-developer-edition.desktop;
+image/jpeg=firefox-developer-edition.desktop;feh.desktop;
 x-scheme-handler/http=xfce4-web-browser.desktop;firefoxdeveloperedition.desktop;
 x-scheme-handler/https=xfce4-web-browser.desktop;firefoxdeveloperedition.desktop;
 inode/directory=xfce4-file-manager.desktop;
@@ -30,3 +34,5 @@ application/x-extension-shtml=firefoxdeveloperedition.desktop;
 application/xhtml+xml=firefoxdeveloperedition.desktop;
 application/x-extension-xhtml=firefoxdeveloperedition.desktop;
 application/x-extension-xht=firefoxdeveloperedition.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop._5d2a679d5b1885ea58e32af6747a90fd.desktop;
+application/pdf=firefox-developer-edition.desktop;

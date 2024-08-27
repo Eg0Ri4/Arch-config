@@ -6,11 +6,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 14
+#font pango:monospace 14
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 8
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -149,12 +149,13 @@ gaps top 22
 smart_gaps off
 
 #keyboard Layout
-exec "setxkbmap -layout us,de,ua,ru -variant ,, -option grp:win_space_toggle"
+exec_always "setxkbmap -layout us,de,ua,ru -variant ,, -option 'grp:alt_shift_toggle'" 
+
 
 #display wallpaper
-exec_always feh --bg-fill ~/Pictures/wallpapers/5.jpg
+exec feh --bg-fill ~/Pictures/wallpapers/5.jpg
 
-#Pulse Audio control
+#Audio control
 #bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
 #bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
 #bindsym XF86AudioMute exec amixer sset 'Master' toggle
@@ -167,11 +168,11 @@ bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
 #exec polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id $HOME/.config/polybar/launch.sh
 
 #assign apps to their workspaces
 for_window [class="firefox"] move to workspace $ws2
-for_window [class="Spotify"] move to workspace $ws10
+for_window [class="Spotube"] move to workspace $ws10
 for_window [class="Telegram"] move to workspace $ws3
 
 #exec wifi menu
