@@ -159,7 +159,7 @@ animation-charging-10 = 󰂅
 animation-charging-framrate = 144 
 animation-low-0 = 󱃍
 animation-low-1 = 󰂎 
-animation-low-framerate = 200
+animation-low-framerate = 100
 
 [module/xkeyboard]
 type = internal/xkeyboard

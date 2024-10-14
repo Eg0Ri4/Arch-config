@@ -93,7 +93,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+#bindsym $mod+s focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -151,14 +151,10 @@ smart_gaps off
 #keyboard Layout
 exec_always "setxkbmap -layout us,de,ua,ru -variant ,, -option 'grp:alt_shift_toggle'" 
 
-
 #display wallpaper
 exec feh --bg-fill ~/Pictures/wallpapers/5.jpg
 
 #Audio control
-#bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
-#bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
-#bindsym XF86AudioMute exec amixer sset 'Master' toggle
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle # Mute
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Up
 bindsym XF86AudioLowerVolume  exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Down
@@ -191,7 +187,4 @@ exec --no-startup-id picom  --config ~/.config/picom/picom.conf
 #make a screenshot
 bindsym Print       exec flameshot full
 bindsym Shift+Print exec flameshot gui
-
-#reverce scrolling for tochpad and normal one for mouse
-exec_always ~/.config/scripts/scrolling.sh
 
